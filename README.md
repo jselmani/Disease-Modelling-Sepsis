@@ -34,8 +34,8 @@ You can switch to real MIMIC-III data by setting `USE_SYNTHETIC = False` in the 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd SelfLearningTutorial
+git clone https://github.com/jselmani/Disease-Modelling-Sepsis/tree/master
+cd Disease-Modelling-Sepsis
 ```
 
 ### 2. Install Dependencies
@@ -172,14 +172,10 @@ For the full algorithm, see the [TICC library by Hallac et al.](https://github.c
 ## Repository Structure
 
 ```
-SelfLearningTutorial/
-├── README.md                                          # This file
-├── disease_progression_modeling_tutorial.py            # Main tutorial script (~2500 lines)
-├── Disease_Progression_Modeling_Tutorial.pptx          # Companion presentation (18 slides)
-├── Multi-series Time-aware Sequence Partitioning...pdf # Reference paper
-├── cluster_deviations.png                             # Generated: feature deviation heatmap
-├── transitions.png                                    # Generated: shock vs non-shock transitions
-└── timeline.png                                       # Generated: patient progression timelines
+Disease-Modelling-Sepsis/
+├── README.md
+├── disease_progression_modeling_tutorial.py
+├── Multi-series Time-aware Sequence Partitioning...pdf
 ```
 
 ## Code Structure
@@ -214,7 +210,5 @@ Every function includes detailed docstrings and inline comments explaining the c
 ## Author
 
 **Jiel Selmani** - March 2026
-
-## License
 
 This tutorial is for educational purposes. MIMIC-III data access requires completion of the [PhysioNet credentialing process](https://physionet.org/content/mimiciii/).
