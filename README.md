@@ -34,7 +34,7 @@ You can switch to real MIMIC-III data by setting `USE_SYNTHETIC = False` in the 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/jselmani/Disease-Modelling-Sepsis/tree/master
+git clone https://github.com/jselmani/Disease-Modelling-Sepsis
 cd Disease-Modelling-Sepsis
 ```
 
